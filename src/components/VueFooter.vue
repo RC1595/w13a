@@ -13,5 +13,7 @@
 </script>
 
 <style scoped>
-
+footer {
+    background-color:lavender;
+}
 </style>

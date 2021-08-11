@@ -1,34 +1,27 @@
 <template>
     <div>
         <h1>Welcome</h1>
-        <nav>
-            <a href="">Link</a>
-            <a href="">Link</a>
-            <a href="">Link</a>
-        </nav>
-
+        <NavBar></NavBar>
     </div>
 </template>
 
 <script>
+    import NavBar from './NavBar.vue'
     export default {
-        name : "VueHeader"
+        name : "VueHeader",
+        components : {
+            NavBar
+        } 
     }
 </script>
 
 <style scoped>
 h1 {
-    color:cyan
+    color:mediumblue;
 }
 div {
-    background-color: darkorchid;
+    border-bottom: mediumblue 2px solid;
+    background-color:lavender;
     height: 20vh;
 }
-
-a {
-    color:cyan;
-    border:rgb(11, 175, 175) solid 2px;
-    margin: 3%;
-}
-
 </style>

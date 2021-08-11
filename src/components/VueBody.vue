@@ -13,11 +13,11 @@
 
 <style scoped>
 p{
-    color:darkorchid;
+    color:maroon;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 2em;
 }
 div{
-    background-color: darkkhaki;
+    background-color:lavender;
 }
 </style>
